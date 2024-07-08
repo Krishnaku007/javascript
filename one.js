@@ -1,52 +1,45 @@
-// if
-const isUserloggedIn = true
-const temperature = 41
-
-// if ( temperature === 40 ){
-//     console.log("less than 50");
-// } else {
-//     console.log("temperature is greater than 50");
-// }
-
-// console.log("Execute");
-// <, >, <=, >=, ==, !=, ===, !==
-
-// const score = 200
-
-// if (score > 100) {
-//     let power = "fly"
-//     console.log(`User power: ${power}`);
-// }
-
-// console.log(`User power: ${power}`);
-
-
-// const balance = 1000
-
-// if (balance > 500) console.log("test"),console.log("test2");
-
-// if (balance < 500) {
-//     console.log("less than 500");
-// } else if (balance < 750) {
-//     console.log("less than 750");
+//for loop 
+// for (let i = 0; i < array.length; i++) {
+//     const element = array[i];
     
-// } else if (balance < 900) {
-//     console.log("less than 750");
-    
-// } else {
-//     console.log("less than 1200");
-
 // }
 
-const userLoggedIn = true
-const debitCard = true
-const loggedInFromGoogle = false
-const loggedInFromEmail = true
+// for (let i = 0; i <=10; i++) {
+//     const element = i;
+//     if(element==5){
+//         console.log("5 is the best number");
+//     }
+//     console.log(element);
+    
+// }
 
-if (userLoggedIn && debitCard && 2==3) {
-    console.log("Allow to buy course");
+for (let i = 1; i <=10; i++) {
+    // console.log(`outer loop:${i}`);
+    for (let j = 1; j <=10; j++) {
+        
+        // console.log(`i = ${i} and j = ${j}`)
+
+        // console.log(i+'*'+j+'='+i*j);
+        
+    }
+    
 }
 
-if (loggedInFromGoogle || loggedInFromEmail) {
-    console.log("User logged in");
-}
+// let myArray=["Flash", "Batman", "Superman"]
+
+// console.log(myArray.length);
+// for (let index = 0; index < myArray.length; index++) {
+//     const element = myArray[index];
+//     console.log(element);
+    
+// }
+
+ for (let i = 0; i <=10; i++) {
+    if(i==5){
+        console.log("detected 5");
+        // break
+        continue
+    }
+    console.log(`Value of i is ${i}`);
+    
+ }
