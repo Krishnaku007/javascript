@@ -1,24 +1,24 @@
-// let score = "33adbs";
-// let score = null;
+let score = "33adbs";
+let score = null;
 
-// console.log(typeof score);
+console.log(typeof score);
 
-// let valueInNumber = Number(score);
-// console.log(typeof valueInNumber);
-// console.log(valueInNumber);
+let valueInNumber = Number(score);
+console.log(typeof valueInNumber);
+console.log(valueInNumber);
 
-// "33"=> 33
-// "33adbs"=> NaN
-// true=>1 false=>0
+"33"=> 33
+"33adbs"=> NaN
+true=>1 false=>0
 
-// let isLoggedIn = "Krishna"
+let isLoggedIn = "Krishna"
 
-// let booleanIsLoggedIn = Boolean(isLoggedIn)
-// console.log(booleanIsLoggedIn);
+let booleanIsLoggedIn = Boolean(isLoggedIn)
+console.log(booleanIsLoggedIn);
 
-// 1=> true 0=> false
-// ""=>false
-// "Krishna"=>true
+1=> true 0=> false
+""=>false
+"Krishna"=>true
 
 // let someNumber=33
 // let stringNUmber= String(someNumber)
